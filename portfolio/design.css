@@ -1,0 +1,44 @@
+body{
+    color: black;
+    background-color: wheat;
+    font-style: oblique;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+ section{
+   border: 3px dashed;
+   max-width: 40%;
+   max-height: 300px;
+   
+}
+
+
+  
+
+ h2, p{
+
+    text-align: center;
+    font-family: Lucida Calligraphy;
+
+ }
+
+ 
+ img {
+    /* border-radius: 17%; */
+    max-width: 17%;
+    
+    
+} 
+
+
+ 
+ header {
+    color: black;
+    text-emphasis-color: chocolate;
+    text-align: left;
+    font-family: Lucida Calligraphy;
+
+}

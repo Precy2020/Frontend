@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Favour Precious Ochonogor - Portfolio</title>
+  <style>
+    .popup {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      z-index: 2;
+    }
+
+    .overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 id="home" style="font-size: 2.5em;">Favour Precious Ochonogor</h1>
+    <p>Software Engineering Student and Fashion Enthusiast</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#picture">My Picture</a>
+    <a href="#work">My Work</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2 style="color: #007BFF;">About Me</h2>
+    <p>Write a brief introduction about yourself, your interests, and your journey so far.</p>
+  </section>
+
+  <section id="picture">
+    <h2 style="color: #007BFF;">My Picture</h2>
+    <div style="text-align: center;">
+      <img src="./asset/Screenshot from 2023-11-10 16-51-25.png" alt="My picture" style="width: 100%; max-width: 600px; border-radius: 12px;">
+    </div>
+  </section>
+
+  <section id="work">
+    <h2 style="color: #007BFF;">My Work</h2>
+
+    <div>
+      <img src="project1.jpg" alt="Project 1" style="border-radius: 8px; margin-bottom: 10px; cursor: pointer;" onclick="showPopup('popup1')">
+      <div id="popup1" class="popup">
+        <h3>Project 1</h3>
+        <p>Description of Project 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod bibendum magna, vel blandit quam efficitur ac.</p>
+        <button onclick="closePopup('popup1')">Close</button>
+      </div>
+    </div>
+
+    <div>
+      <img src="project2.jpg" alt="Project 2" style="border-radius: 8px; margin-bottom: 10px; cursor: pointer;" onclick="showPopup('popup2')">
+      <div id="popup2" class="popup">
+        <h3>Project 2</h3>
+        <p>Description of Project 2. Vestibulum id est eu libero varius fermentum. Sed auctor risus et felis fringilla, eu venenatis sapien consequat.</p>
+        <button onclick="closePopup('popup2')">Close</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 style="color: #007BFF;">Contact</h2>
+    <p>Feel free to <a href="mailto:you@example.com" style="color: #007BFF;">email me</a> or connect on <a href="https://www.linkedin.com/in/yourprofile" style="color: #007BFF;">LinkedIn</a>.</p>
+  </section>
+
+  <footer>
+    &copy; 2023 Favour Precious Ochonogor
+  </footer>
+
+  <div id="overlay" class="overlay" onclick="closePopups()"></div>
+
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scroll)}
+  </script>
+  

@@ -1,0 +1,56 @@
+
+nav{
+    justify-content: center;
+    display: flex;
+}
+body{
+    height: 125vh;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 80px;
+    padding: 30px;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    
+}
+header *{
+    display: inline;
+}
+
+header li{
+    margin: 20px;
+}
+header li a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+main{
+    justify-self: center;
+
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    display: flex;
+    justify-content: left;
+    margin: 50px;
+}
+
+
+
+
+
