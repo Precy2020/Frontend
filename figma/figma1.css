@@ -1,0 +1,74 @@
+.Lessons{
+    align-self: stretch;
+    color: var(--neutral-d-grey, #4D4D4D);    
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 76px;
+}
+
+.from{
+    align-self: stretch;
+    color: var(--brand-primary, #4CAF4F);     
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 76px;
+
+}
+
+.Where{
+    color: var(--neutral-grey, #717171);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+.Lessons, .from, .Where{
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+.Lessons, .from, .Where{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0; 
+}
+
+
+/* .button{
+    display: flex;
+    padding: 14px 32px;
+    justify-content: center;
+    align-items: center;
+} */
+
+.first{
+    display: flex;
+    padding: 96px 144px;
+    align-items: center;
+    gap: 104px;
+    align-self: stretch; 
+    justify-content: center;
+    align-items: center;
+}
+
+.btn3{
+    background: var(--brand-primary, #4CAF4F);
+    color: white;
+    display: flex;
+    padding: 14px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.image{
+    width: 391px;
+    height: 407px;
+}
