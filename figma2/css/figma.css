@@ -1,0 +1,104 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding: 0px 0px;
+}
+
+.page_logo{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 50px;
+}
+
+.Home{
+    color: var(--text-gray-900, #18191F);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+}
+
+.Service, .Feature, .Product, .Testimonial, .FAQ{
+    color: var(--text-gray-900, #18191F);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    border: none;
+}
+
+nav{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    /* margin-left: 150px; */
+
+}
+
+nav a{
+    text-decoration: none;
+
+}
+
+
+.btn_a{
+    color: var(--brand-primary, #4CAF4F);
+    text-align: center;
+    font-feature-settings: 'salt' on, 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background: var(--neutral-silver, #F5F7FA);
+}
+
+
+.btn_b{
+    color: var(--default-white, #FFF);
+    text-align: center;
+    font-feature-settings: 'salt' on, 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; 
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background: var(--brand-primary, #4CAF4F);
+}
+
+.btns{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 14px;
+    border: none;
+    margin-left: 200px;
+    
+}
+
+.first_layer{   
+    width: 1500px;
+    height: 84px;
+    flex-shrink: 0;
+    padding: 30px;
+    max-width: 1440px;
+    background: var(--neutral-silver, #F5F7FA);
+     margin-left: 50px;
+    margin-right: 50px;  
+
+}

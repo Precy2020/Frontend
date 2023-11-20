@@ -1,0 +1,87 @@
+.second_p1{
+    color: var(--neutral-d-grey, #4D4D4D);
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 76px; 
+    align-self: stretch;
+}
+
+.first_span{
+    color: var(--brand-primary, #4CAF4F);
+    align-self: stretch;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 76px;
+}
+
+.second_p2{
+    color: var(--neutral-grey, #717171);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+.second_2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.second_btn{
+    color: var(--neutral-white, #FFF);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    display: flex;
+    padding: 14px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--brand-primary, #4CAF4F);
+}
+
+.second_1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+}
+
+.second_img{
+    width: 391px;
+    height: 407px;
+}
+
+.second_layer{
+    display: flex;
+    padding: 96px 144px;
+    align-items: center;
+    gap: 104px;
+    align-self: stretch;
+    background: var(--neutral-silver, #F5F7FA);
+
+}
+
+.second_svg{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 8px;
+    background: var(--neutral-silver, #F5F7FA);
+
+    
+    
+}
+

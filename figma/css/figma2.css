@@ -1,0 +1,134 @@
+
+
+.Our{
+    color: var(--neutral-d-grey, #4D4D4D); 
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    align-self: stretch;
+    display: flex;
+    width: 1110px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.We{
+    color: var(--neutral-grey, #717171);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+.images{
+    display: flex;
+    height: 98px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+.second_layer{
+    background-color: white;
+    display: flex;
+    width: 1440px;
+    padding: 0px 144px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px; 
+}
+
+.one{
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    display: flex;
+    width: 48px;
+    height: 48px;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.two{
+    width: 40px;
+    height: 28px;
+    flex-shrink: 0;
+    display: flex;
+    width: 48px;
+    height: 48px;
+    padding: 9.847px 4px 10.153px 4px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.three{
+    width: 55px;
+    height: 30px;
+    flex-shrink: 0;
+    display: flex;
+    width: 48px;
+    height: 48px;
+    padding: 8.847px 0px 9.153px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.four{
+    width: 47px;
+    height: 29px;
+    flex-shrink: 0;
+    display: flex;
+    width: 48px;
+    height: 48px;
+    padding: 9.847px 0px 9.153px 1px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.five{
+    width: 41px;
+    height: 27px;
+    flex-shrink: 0;
+    display: flex;
+    width: 48px;
+    height: 48px;
+    padding: 10.847px 3px 10.153px 4px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.six{
+    width: 52px;
+    height: 20px;
+    flex-shrink: 0;
+    display: flex;
+    width: 48px;
+    height: 48px;
+    padding: 13.847px 0px 14.153px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.seven{
+    width: 55px;
+    height: 30px;
+    flex-shrink: 0;
+    display: flex;
+    width: 48px;
+    height: 48px;
+    padding: 8.847px 0px 9.153px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}

@@ -49,14 +49,20 @@
     align-items: center;
 } */
 
-.first{
+.first_layer{
     display: flex;
-    padding: 96px 144px;
+    padding: 96px 144px; 
     align-items: center;
     gap: 104px;
-    align-self: stretch; 
+    align-self: center; 
     justify-content: center;
     align-items: center;
+    background: var(--neutral-silver, #F5F7FA);
+    max-width: 1440px;
+}
+
+.first_set{
+    background-color: white;
 }
 
 .btn3{
