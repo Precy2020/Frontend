@@ -4,63 +4,70 @@ body{
     align-content: center;
     align-items: center;
     padding: 0px 0px;
+    box-sizing: border-box
 }
 
 
 
-header{
-    display: flex;
-    justify-content: space-between;
-    gap: 105px;
-    padding: 30px;
+.header{
+    width: 1440px;
+    height: 10px;
+    flex-shrink: 0;
     background: var(--neutral-silver, #F5F7FA);
-    align-self: center;
-    max-width: 1440px;
-
-}
-
-ul{
+    padding: 30px;
     display: flex;
     justify-content: center;
+    gap: 150px;
     align-items: center;
+
 }
 
-/* .logo{
-    display: inline-flex;
-    align-items: center;
-    width: 200%;
-    height: 200%
-} */
 
 .img{
     display: inline-flex;
-align-items: center;
-gap: 8px; 
+    align-items: center;
+    gap: 8px; 
 }
-
+    
 
 nav{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    gap: 50px; 
+    gap: 50px;
 }
 
 nav a{
-    color: black;
     text-decoration: none;
-    margin-right: 20px;
-    font-size: 1.2em;
+}
+
+.nav1{
+    color: var(--text-gray-900, #18191F);
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px; 
+    border: none;
 }
 
+.nav2, .nav3, .nav4, .nav5, .nav6, .nav7{
+    color: var(--text-gray-900, #18191F);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+
 .buttons{
-    display: flex;
-    align-items: center;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 14px;
+    
+
+
 }
 
 .btn1, .btn2{
@@ -69,11 +76,11 @@ nav a{
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    margin-right: 10px;
     font-family: Inter;
     font-style: normal;
     font-weight: 500px;
     line-height: 20px;
+    
 }
 
 .btn1{

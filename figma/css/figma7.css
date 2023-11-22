@@ -1,16 +1,16 @@
 .seventh_layer{
-    background-color: white;
     display: flex;
-    width: 1440px;
-    padding: 0px 144px;
-    justify-content: space-between;
-    align-items: center;
+width: 1440px;
+padding: 0px 144px;
+justify-content: space-between;
+align-items: center;
 }
 
 .seventh_img{
     width: 320.288px;
     height: 298.438px;
     flex-shrink: 0;
+    fill: #F0F0F0;
 }
 
 .h2{
@@ -21,6 +21,11 @@
     font-weight: 600;
     line-height: 44px; 
     align-self: stretch;
+    display: flex;
+    width: 601px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
 }
 
 .seventh_p{
@@ -48,6 +53,7 @@
     gap: 10px;
     border-radius: 4px;
     background: var(--brand-primary, #4CAF4F);
+    margin-top: -25px;
 }
 
 .h2{
@@ -67,22 +73,3 @@
     flex-shrink: 0;
 }
 
-/* .img1{
-    width: 53.298px;
-    height: 60.523px;
-    flex-shrink: 0;
-} */
-
-.img2{
-    width: 52.556px;
-    height: 82.008px;
-    flex-shrink: 0;
-    fill: #263238;
-}
-
-.img3{
-    width: 21.959px;
-    height: 39.151px;
-    flex-shrink: 0;
-    fill: #FFBE9D;
-}

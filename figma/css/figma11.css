@@ -1,0 +1,43 @@
+.eleventh_p{
+    color: var(--neutral-black, #263238);
+    text-align: center;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 76px; /* 118.75% */
+    width: 887px;
+}
+
+.eleventh_btn{
+    display: flex;
+    padding: 14px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background: var(--brand-primary, #4CAF4F);
+    color: var(--neutral-white, #FFF);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+}
+
+.Eleventh_layer{
+    display: flex;
+    width: 1440px;
+    /* padding: 32px 0px; */
+    flex-direction: column;
+    align-items: center;
+    /* gap: 8px; */
+    background: var(--neutral-silver, #F5F7FA);
+}
+
+.extra_layer{
+    width: 1000px;
+   height: 100px;
+   background: #FFF;
+}
